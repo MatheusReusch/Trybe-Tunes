@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { getUser } from '../services/userAPI';
 import Header from '../components/Header';
-import { Link } from 'react-router-dom';
 
 class Profile extends React.Component {
   constructor() {
@@ -25,8 +25,8 @@ class Profile extends React.Component {
         {pessoa !== '' && <h2>{pessoa.description}</h2>}
         {pessoa !== '' && <h2>{pessoa.email}</h2>}
         {(pessoa !== '' && pessoa.image !== '')
-        && <img alt="imagem da pessoa" data-testid="profile-image" src={ pessoa.image } />}
-        <Link to='/profile/edit'>Editar perfil</Link>
+        && <img alt="sua imagem" data-testid="profile-image" src={ pessoa.image } />}
+        <Link to="/profile/edit">Editar perfil</Link>
       </div>
     );
   }
