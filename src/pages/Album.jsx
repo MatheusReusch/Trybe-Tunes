@@ -59,7 +59,6 @@ class Album extends React.Component {
     return (
       <div data-testid="page-album">
         <h1>Album</h1>
-        {loading2 && 'Carregando...'}
         <Header />
         {loading && 'Carregando...'}
         {musicas.length > 0
@@ -99,6 +98,7 @@ class Album extends React.Component {
           )
           ))
           : ''}
+        {loading2 && 'Carregando...'}
       </div>
     );
   }
