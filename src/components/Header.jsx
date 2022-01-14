@@ -27,7 +27,7 @@ class Header extends React.Component {
           'Carregando...'
         )}
         <Link to="/search" data-testid="link-to-search">
-          Search
+          Pesquisar
         </Link>
         <Link to="/favorites" data-testid="link-to-favorites">
           Favorites
