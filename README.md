@@ -5,4 +5,4 @@ O objetivo desse projeto era desenvolver um App de músicas funcional onde o usu
 
 ![requisito-9](images/requisito9.gif)
 
-![requisito-10](images/requisito10.gif)
+![requisito-12](images/requisito12.gif)
